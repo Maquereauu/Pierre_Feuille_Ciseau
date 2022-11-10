@@ -8,7 +8,7 @@
     #si le retour de la fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
         #alors retourne le dictionnaire
     #si multiplayer vaut 1
-        #alors tant que pts_p1 < 3 et pts_p2 < 3
+        #alors tant que p1_pts < 3 et p2_pts < 3
             #alors assigner p1 est égal à la valeur du retour de la fonction input demandant quel coup veut-il faire
             #si p1 est un str()
                 #alors prendre la valeur int de la clé du dictionnaire correspondante au str
