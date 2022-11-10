@@ -29,7 +29,7 @@
                 #alors on incrémente p1_pts de 1
             #si p1 == 1 et p2 == 2
                 #alors on incrémente p2_pts de 1
-        #si pts_p1 > pts_p2 
+        #si p1_pts > p2_pts 
             #alors afficher str le gagnant est p1
         #sinon
             #alors afficher str le gagnant est p2
