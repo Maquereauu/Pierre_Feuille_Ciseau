@@ -1,12 +1,13 @@
 #DEBUT
 #Importer module random
-#définir foncion pierre_feuille_ciseaux avec comme paramètre multiplayer(bool)
+#définir foncion pierre_feuille_ciseaux avec comme paramètre multiplayer(bool) et first_game=1
     #assigner p1_pts est égal à 0
     #assigner p2_pts est égal à 0
-    #assigner dict_pcs avec comme clés les noms des différents coups et en valeur leurs description (quel coup bat lequel ainsi que leurs ids) 
-    #assigner à rules le retour de la fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
-    #si le retour de la fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
-        #alors retourne le dictionnaire
+    #assigner dict_pcs avec comme clés les noms des différents coups et en valeur leurs description (quel coup bat lequel ainsi que leurs ids)
+    #si first_game est vrai
+        #alors assigner à rules le retour de la fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
+        #si le retour de la fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
+            #alors retourne le dictionnaire
     #si multiplayer vaut 1
         #alors tant que p1_pts < 3 et p2_pts < 3
             #alors assigner p1 est égal à la valeur du retour de la fonction input demandant quel coup veut-il faire
@@ -35,7 +36,7 @@
             #alors afficher str le gagnant est p2
         # assigner replay est égal au le retour de la fonction input demandant à l'utilisateur si oui/non il veut rejouer
         #si replay est égal à oui 
-            #alors retourner pierre_feuille_ciseaux(1)
+            #alors retourner pierre_feuille_ciseaux(1,0)
     #si multiplayer vaut 0 
         #alors tant que pts_p1 < 3 et pts_p2 < 3
             #alors assigner p1 est égal à la valeur du retour de la fonction input demandant quel coup veut-il faire
@@ -62,5 +63,5 @@
             #alors afficher str le gagnant est p2
         # assigner replay est égal au retour de la fonction input demandant à l'utilisateur si oui/non il veut rejouer
         #si replay est égal à oui 
-            #alors retourner pierre_feuille_ciseaux(0)
+            #alors retourner pierre_feuille_ciseaux(0,0)
 #FIN
