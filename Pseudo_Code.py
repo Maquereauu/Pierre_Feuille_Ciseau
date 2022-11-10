@@ -64,4 +64,5 @@
         # assigner replay est égal au retour de la fonction input demandant à l'utilisateur si oui/non il veut rejouer
         #si replay est égal à oui 
             #alors retourner pierre_feuille_ciseaux(0,0)
+    #retourne le str GG
 #FIN
