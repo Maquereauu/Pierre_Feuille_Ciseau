@@ -65,4 +65,5 @@
         #si replay est égal à oui 
             #alors retourner pierre_feuille_ciseaux(0,0)
     #retourne le str GG
+#appeler fonction pierre_feuille_ciseau
 #FIN
