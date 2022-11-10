@@ -39,6 +39,8 @@
     #si multiplayer vaut 0 
         #alors tant que pts_p1 < 3 et pts_p2 < 3
             #alors assigner p1 est égal à la valeur du retour de la fonction input demandant quel coup veut-il faire
+            #si p1 est un str()
+                #alors prendre la valeur int de la clé du dictionnaire correspondante au str
             #assigner p2 est égal au retour de la fonction randint(0,2)
             #si p1 == p2
                 #alors affiche "Draw"
