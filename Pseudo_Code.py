@@ -4,7 +4,7 @@
     #assigner pts_p1 est égal à 0
     #assigner pts_p2 est égal à 0
     #assigner dict_pcs avec comme clés les noms des différents coups et en valeur leurs description (quel coup bat lequel ainsi que leurs ids) 
-    #fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
+    #assigner à rules le retour de la fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
     #si le retour de la fonction input demandant si l'utilisateur veut connaître les rêgles est vrai
         #alors retourne le dictionnaire
     #si multiplayer vaut 1
