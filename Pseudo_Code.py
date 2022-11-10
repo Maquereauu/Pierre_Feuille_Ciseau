@@ -1,6 +1,6 @@
 #DEBUT
 #Importer module random
-#définir foncion pierre_feuille_ciseaux avec comme paramètre multiplayer(bool) et first_game=1
+#définir foncion pierre_feuille_ciseaux avec comme paramètre multiplayer(bool) et first_game qui vaut 1
     #assigner p1_pts est égal à 0
     #assigner p2_pts est égal à 0
     #assigner dict_pcs avec comme clés les noms des différents coups et en valeur leurs description (quel coup bat lequel ainsi que leurs ids)
