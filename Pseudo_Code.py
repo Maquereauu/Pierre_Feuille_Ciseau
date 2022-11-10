@@ -1,6 +1,6 @@
 #DEBUT
 #Importer module random
-#définir foncion pierre_feuille_ciseau avec comme paramètre multiplayer(bool)
+#définir foncion pierre_feuille_ciseaux avec comme paramètre multiplayer(bool)
     #assigner pts_p1 est égal à 0
     #assigner pts_p2 est égal à 0
     #assigner dict_pcs avec comme clés les noms des différents coups et en valeur leurs description (quel coup bat lequel ainsi que leurs ids) 
@@ -35,7 +35,7 @@
             #alors afficher str le gagnant est p2
         # assigner replay est égal au le retour de la fonction input demandant à l'utilisateur si oui/non il veut rejouer
         #si replay est égal à oui 
-            #alors retourner pierre_feuille_ciseau(1)
+            #alors retourner pierre_feuille_ciseaux(1)
     #si multiplayer vaut 0 
         #alors tant que pts_p1 < 3 et pts_p2 < 3
             #alors assigner p1 est égal à la valeur du retour de la fonction input demandant quel coup veut-il faire
@@ -60,5 +60,5 @@
             #alors afficher str le gagnant est p2
         # assigner replay est égal au retour de la fonction input demandant à l'utilisateur si oui/non il veut rejouer
         #si replay est égal à oui 
-            #alors retourner pierre_feuille_ciseau(0)
+            #alors retourner pierre_feuille_ciseaux(0)
 #FIN
